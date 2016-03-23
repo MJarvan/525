@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="account_empty">用户名为空，请重新输入！</string>
+    <string name="app_name">广财之光</string>
+    <string name="cancle">取消</string>
+    <string name="hello">Hello World, Date!</string>
+    <string name="login">登 录</string>
+    <string name="login_fail">登陆失败！请输入正确的用户名与密码！</string>
+    <string name="login_sucess">登陆成功！</string>
+    <string name="name_already_exist">用户名：<ns1:g example="tom" id="id1">%1$s</ns1:g>已存在，请重新输入！</string>
+    <string name="pwd_empty">密码为空，请重新输入！</string>
+    <string name="register">注册</string>
+    <string name="register_fail">注册用户失败，请重新尝试！</string>
+    <string name="register_sucess">注册成功！</string>
+    <string name="strAccInputLabel">帐号</string>
+    <string name="strInputAccHint">输入帐号</string>
+    <string name="strPswInputLabel">密码</string>
+    <string name="user_login_sucess">用户：<ns1:g example="tom" id="id2">%1$s</ns1:g>登录，欢迎光临！</string>
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/qq_checkbox_text_color</item>
+        <item name="android:paddingLeft">28.0px</item>
+        <item name="android:button">@drawable/qq_btn_check</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_bg_hdpi.png",
+        "source": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\drawable-hdpi\\default_bg_hdpi.png"
+    }
+]
