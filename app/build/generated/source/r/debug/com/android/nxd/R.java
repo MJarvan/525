@@ -52,11 +52,13 @@ public final class R {
         public static final int login_success_show=0x7f08000a;
         public static final int login_success_view=0x7f080009;
         public static final int login_view=0x7f080001;
-        public static final int user_face_drawable=0x7f08000c;
-        public static final int user_faceback_drawable=0x7f08000b;
+        public static final int textView=0x7f08000b;
+        public static final int user_face_drawable=0x7f08000d;
+        public static final int user_faceback_drawable=0x7f08000c;
     }
     public static final class layout {
         public static final int loginpage=0x7f040000;
+        public static final int two=0x7f040001;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
