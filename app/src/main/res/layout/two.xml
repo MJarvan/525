@@ -3,7 +3,7 @@
     android:id="@+id/loginRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/official_app_page_header_bg3"
+    android:background="@drawable/default_bg"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -19,6 +19,5 @@
             android:id="@+id/textView"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
-
     </RelativeLayout>
 </LinearLayout>

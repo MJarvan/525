@@ -1,6 +1,8 @@
 package com.android.nxd;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
@@ -21,12 +23,14 @@ public class LoginActivity extends Activity {
 	private View loginSuccessView;
 	private TextView loginSuccessShow;
 	private UserDataManager mUserDataManager;
+	private Context mContext;
 
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.loginpage);
+		mContext = this;
 
 		mAccount = (EditText) findViewById(R.id.login_edit_account);
 		mPwd = (EditText) findViewById(R.id.login_edit_pwd);
@@ -64,18 +68,23 @@ public class LoginActivity extends Activity {
 	};
 
 	public void login() {
+
 		if (isUserNameAndPwdValid()) {
+
+
 			String userName = mAccount.getText().toString().trim();
 			String userPwd = mPwd.getText().toString().trim();
-			int result=mUserDataManager.findUserByNameAndPwd(userName, userPwd);
-			if(result==1){
+			//int result=mUserDataManager.findUserByNameAndPwd(userName, userPwd);
+			if("123".equals(userPwd)){
 				//login success
-				loginView.setVisibility(View.GONE);
+				/**loginView.setVisibility(View.GONE);
 				loginSuccessView.setVisibility(View.VISIBLE);
-				loginSuccessShow.setText(getString(R.string.user_login_sucess, userName));
+				loginSuccessShow.setText(getString(R.string.user_login_sucess, userName));*/
 				Toast.makeText(this, getString(R.string.login_sucess),
 						Toast.LENGTH_SHORT).show();
-			}else if(result==0){
+				Intent intent = new Intent(mContext,twoActivity.class);
+				startActivity(intent);
+			}else {
 				//login failed,user does't exist
 				Toast.makeText(this, getString(R.string.login_fail),
 						Toast.LENGTH_SHORT).show();
@@ -110,8 +119,10 @@ public class LoginActivity extends Activity {
 	}
 
 	public void cancle() {
-		mAccount.setText("");
-		mPwd.setText("");
+		/**mAccount.setText("");
+		mPwd.setText("");*/
+		finish();
+		System.exit(0);
 	}
 
 	public boolean isUserNameAndPwdValid() {

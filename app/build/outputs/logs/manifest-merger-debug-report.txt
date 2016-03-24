@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\AndroidManifest.xml:3:5-30
 		INJECTED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\AndroidManifest.xml
@@ -16,7 +16,7 @@ ADDED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\Android
 	xmlns:android
 		ADDED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\AndroidManifest.xml:7:5-19:19
+ADDED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\AndroidManifest.xml:7:5-27:19
 	android:label
 		ADDED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\AndroidManifest.xml:9:9-41
 	android:icon
@@ -37,3 +37,9 @@ category#android.intent.category.LAUNCHER
 ADDED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.android.nxd.twoActivity
+ADDED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\AndroidManifest.xml:20:9-24:20
+	android:label
+		ADDED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\AndroidManifest.xml:22:13-45
+	android:name
+		ADDED from F:\Users\mj\AndroidStudioProjects\TeachManageSys\app\src\main\AndroidManifest.xml:21:13-40
