@@ -62,8 +62,13 @@ public final class R {
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
-        public static final int new_bg=0x7f030001;
-        public static final int new_bg2=0x7f030002;
+        public static final int ic_launcher1=0x7f030001;
+        public static final int new_bg=0x7f030002;
+        public static final int new_bg2=0x7f030003;
+        public static final int official_app_page_header_bg=0x7f030004;
+        public static final int official_app_page_header_bg1=0x7f030005;
+        public static final int official_app_page_header_bg2=0x7f030006;
+        public static final int official_app_page_header_bg3=0x7f030007;
     }
     public static final class string {
         public static final int account_empty=0x7f050000;
