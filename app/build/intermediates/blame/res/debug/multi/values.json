@@ -23,14 +23,7 @@
                     "endOffset": 197
                 },
                 "from": {
-                    "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 160,
-                        "endColumn": 41,
-                        "endOffset": 197
-                    }
+                    "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -42,7 +35,14 @@
                     "endOffset": 235
                 },
                 "from": {
-                    "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 425,
+                        "endColumn": 37,
+                        "endOffset": 458
+                    }
                 }
             },
             {
@@ -62,20 +62,27 @@
                     "startLine": 6,
                     "startColumn": 4,
                     "startOffset": 293,
-                    "endColumn": 37,
-                    "endOffset": 326
+                    "endColumn": 36,
+                    "endOffset": 325
                 },
                 "from": {
-                    "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 348,
+                        "endColumn": 36,
+                        "endOffset": 380
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 331,
+                    "startOffset": 330,
                     "endColumn": 57,
-                    "endOffset": 384
+                    "endOffset": 383
                 },
                 "from": {
                     "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml"
@@ -85,9 +92,9 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 389,
+                    "startOffset": 388,
                     "endColumn": 46,
-                    "endOffset": 431
+                    "endOffset": 430
                 },
                 "from": {
                     "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml"
@@ -97,9 +104,9 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 436,
+                    "startOffset": 435,
                     "endColumn": 103,
-                    "endOffset": 535
+                    "endOffset": 534
                 },
                 "from": {
                     "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml",
@@ -116,9 +123,9 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 540,
+                    "startOffset": 539,
                     "endColumn": 49,
-                    "endOffset": 585
+                    "endOffset": 584
                 },
                 "from": {
                     "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml"
@@ -128,9 +135,9 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 590,
+                    "startOffset": 589,
                     "endColumn": 39,
-                    "endOffset": 625
+                    "endOffset": 624
                 },
                 "from": {
                     "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml"
@@ -140,9 +147,9 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 630,
+                    "startOffset": 629,
                     "endColumn": 55,
-                    "endOffset": 681
+                    "endOffset": 680
                 },
                 "from": {
                     "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml"
@@ -152,9 +159,9 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 686,
+                    "startOffset": 685,
                     "endColumn": 49,
-                    "endOffset": 731
+                    "endOffset": 730
                 },
                 "from": {
                     "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml"
@@ -164,9 +171,9 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 736,
+                    "startOffset": 735,
                     "endColumn": 47,
-                    "endOffset": 779
+                    "endOffset": 778
                 },
                 "from": {
                     "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml"
@@ -176,12 +183,19 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 784,
-                    "endColumn": 48,
+                    "startOffset": 783,
+                    "endColumn": 49,
                     "endOffset": 828
                 },
                 "from": {
-                    "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 202,
+                        "endColumn": 49,
+                        "endOffset": 247
+                    }
                 }
             },
             {
