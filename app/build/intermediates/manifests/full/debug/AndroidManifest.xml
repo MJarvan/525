@@ -20,6 +20,10 @@
             android:name="com.android.nxd.twoActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.android.nxd.tab2"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

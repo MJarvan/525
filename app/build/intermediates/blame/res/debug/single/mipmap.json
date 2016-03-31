@@ -8,6 +8,18 @@
         "source": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\mipmap\\official_app_page_header_bg1.jpg"
     },
     {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\official_app_page_header_bg1.jpg",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\mipmap\\official_app_page_header_bg1.jpg"
+    },
+    {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\official_app_page_header_bg.jpg",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\mipmap\\official_app_page_header_bg.jpg"
+    },
+    {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\official_app_page_header_bg3.jpg",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\mipmap\\official_app_page_header_bg3.jpg"
+    },
+    {
         "merged": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\official_app_page_header_bg.jpg",
         "source": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\mipmap\\official_app_page_header_bg.jpg"
     },
@@ -18,5 +30,13 @@
     {
         "merged": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\official_app_page_header_bg2.jpg",
         "source": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\mipmap\\official_app_page_header_bg2.jpg"
+    },
+    {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\apptupia.jpg",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\mipmap\\apptupia.jpg"
+    },
+    {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\official_app_page_header_bg2.jpg",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\mipmap\\official_app_page_header_bg2.jpg"
     }
 ]

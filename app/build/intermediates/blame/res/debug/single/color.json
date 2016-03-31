@@ -4,6 +4,10 @@
         "source": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\src\\main\\res\\color\\qq_checkbox_text_color.xml"
     },
     {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\color\\qq_checkbox_text_color.xml",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\color\\qq_checkbox_text_color.xml"
+    },
+    {
         "merged": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\color\\qq_checkbox_text_color.xml",
         "source": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\color\\qq_checkbox_text_color.xml"
     }

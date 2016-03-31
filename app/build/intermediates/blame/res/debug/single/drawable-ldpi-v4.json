@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
         "merged": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
         "source": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
     },

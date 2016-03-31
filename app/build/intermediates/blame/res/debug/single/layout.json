@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab2.xml",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\layout\\tab2.xml"
+    },
+    {
         "merged": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\two.xml",
         "source": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\src\\main\\res\\layout\\two.xml"
     },
@@ -8,11 +12,27 @@
         "source": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\layout\\two.xml"
     },
     {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loginpage.xml",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\layout\\loginpage.xml"
+    },
+    {
         "merged": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loginpage.xml",
         "source": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\src\\main\\res\\layout\\loginpage.xml"
     },
     {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab3.xml",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\layout\\tab3.xml"
+    },
+    {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab1.xml",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\layout\\tab1.xml"
+    },
+    {
         "merged": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loginpage.xml",
         "source": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\layout\\loginpage.xml"
+    },
+    {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\two.xml",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\layout\\two.xml"
     }
 ]

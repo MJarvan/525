@@ -6,6 +6,31 @@
     android:background="@drawable/default_bg"
     android:orientation="vertical">
 
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|bottom">
+                </TabWidget>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,3 +46,8 @@
             android:layout_centerHorizontal="true" />
     </RelativeLayout>
 </LinearLayout>
+
+
+
+
+

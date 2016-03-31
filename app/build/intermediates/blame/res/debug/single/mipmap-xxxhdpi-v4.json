@@ -4,6 +4,14 @@
         "source": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\mipmap-xxxhdpi\\new_bg.png"
     },
     {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\new_bg2.png",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\mipmap-xxxhdpi\\new_bg2.png"
+    },
+    {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\new_bg.png",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\mipmap-xxxhdpi\\new_bg.png"
+    },
+    {
         "merged": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\new_bg2.png",
         "source": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\src\\main\\res\\mipmap-xxxhdpi\\new_bg2.png"
     },
@@ -14,6 +22,10 @@
     {
         "merged": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
         "source": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher1.png",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher1.png"
     },
     {
         "merged": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
@@ -30,5 +42,9 @@
     {
         "merged": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher1.png",
         "source": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher1.png"
+    },
+    {
+        "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]

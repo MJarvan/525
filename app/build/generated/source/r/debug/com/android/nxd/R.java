@@ -41,8 +41,15 @@ public final class R {
         public static final int qq_edit_login=0x7f020018;
     }
     public static final class id {
+        public static final int LinearLayout01=0x7f08000b;
+        public static final int LinearLayout02=0x7f080011;
+        public static final int LinearLayout03=0x7f080013;
         public static final int TextView01=0x7f080003;
         public static final int TextView02=0x7f080005;
+        public static final int imageView=0x7f08000c;
+        public static final int imageView2=0x7f08000e;
+        public static final int imageView3=0x7f080010;
+        public static final int listView=0x7f080012;
         public static final int loginRoot=0x7f080000;
         public static final int login_btn_cancle=0x7f080008;
         public static final int login_btn_login=0x7f080006;
@@ -52,23 +59,30 @@ public final class R {
         public static final int login_success_show=0x7f08000a;
         public static final int login_success_view=0x7f080009;
         public static final int login_view=0x7f080001;
-        public static final int textView=0x7f08000b;
-        public static final int user_face_drawable=0x7f08000d;
-        public static final int user_faceback_drawable=0x7f08000c;
+        public static final int tabhost=0x7f080014;
+        public static final int textView=0x7f080015;
+        public static final int textView2=0x7f08000d;
+        public static final int textView3=0x7f08000f;
+        public static final int user_face_drawable=0x7f080017;
+        public static final int user_faceback_drawable=0x7f080016;
     }
     public static final class layout {
         public static final int loginpage=0x7f040000;
-        public static final int two=0x7f040001;
+        public static final int tab1=0x7f040001;
+        public static final int tab2=0x7f040002;
+        public static final int tab3=0x7f040003;
+        public static final int two=0x7f040004;
     }
     public static final class mipmap {
-        public static final int ic_launcher=0x7f030000;
-        public static final int ic_launcher1=0x7f030001;
-        public static final int new_bg=0x7f030002;
-        public static final int new_bg2=0x7f030003;
-        public static final int official_app_page_header_bg=0x7f030004;
-        public static final int official_app_page_header_bg1=0x7f030005;
-        public static final int official_app_page_header_bg2=0x7f030006;
-        public static final int official_app_page_header_bg3=0x7f030007;
+        public static final int apptupia=0x7f030000;
+        public static final int ic_launcher=0x7f030001;
+        public static final int ic_launcher1=0x7f030002;
+        public static final int new_bg=0x7f030003;
+        public static final int new_bg2=0x7f030004;
+        public static final int official_app_page_header_bg=0x7f030005;
+        public static final int official_app_page_header_bg1=0x7f030006;
+        public static final int official_app_page_header_bg2=0x7f030007;
+        public static final int official_app_page_header_bg3=0x7f030008;
     }
     public static final class string {
         public static final int account_empty=0x7f050000;
