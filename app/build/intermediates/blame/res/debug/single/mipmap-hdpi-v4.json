@@ -4,6 +4,10 @@
         "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "F:\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\new_bg.png",
+        "source": "F:\\TeachManageSys\\app\\src\\main\\res\\mipmap-hdpi\\new_bg.png"
+    },
+    {
         "merged": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\new_bg.png",
         "source": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\src\\main\\res\\mipmap-hdpi\\new_bg.png"
     },
@@ -20,12 +24,20 @@
         "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\mipmap-hdpi\\new_bg2.png"
     },
     {
+        "merged": "F:\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\new_bg2.png",
+        "source": "F:\\TeachManageSys\\app\\src\\main\\res\\mipmap-hdpi\\new_bg2.png"
+    },
+    {
         "merged": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher1.png",
         "source": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher1.png"
     },
     {
         "merged": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
         "source": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher1.png",
+        "source": "F:\\TeachManageSys\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher1.png"
     },
     {
         "merged": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\new_bg.png",
@@ -42,6 +54,10 @@
     {
         "merged": "D:\\Project\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\new_bg.png",
         "source": "D:\\Project\\TeachManageSys\\app\\src\\main\\res\\mipmap-hdpi\\new_bg.png"
+    },
+    {
+        "merged": "F:\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\TeachManageSys\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Project\\the-light-of-gdufe-app-the-light-of-gdufe-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",

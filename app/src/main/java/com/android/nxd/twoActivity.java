@@ -33,8 +33,8 @@ public class twoActivity extends Activity{
         i.inflate(R.layout.tab2, m.getTabContentView());//动态载入XML，而不需要Activity
         i.inflate(R.layout.tab3, m.getTabContentView());
 
-        m.addTab(m.newTabSpec("tab1").setIndicator("活动领取").setContent(R.id.LinearLayout01));
-        m.addTab(m.newTabSpec("tab2").setIndicator("活动发布").setContent(R.id.LinearLayout02));
+        m.addTab(m.newTabSpec("tab1").setIndicator("活动发布").setContent(R.id.LinearLayout01));
+        m.addTab(m.newTabSpec("tab2").setIndicator("活动领取").setContent(R.id.LinearLayout02));
         m.addTab(m.newTabSpec("tab3").setIndicator("社区交流").setContent(R.id.LinearLayout03));
     }
 }

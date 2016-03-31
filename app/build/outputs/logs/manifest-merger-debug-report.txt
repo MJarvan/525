@@ -1,51 +1,51 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:2:1-35:12
 	package
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:3:5-30
-		INJECTED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from F:\TeachManageSys\app\src\main\AndroidManifest.xml
+		INJECTED from F:\TeachManageSys\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from F:\TeachManageSys\app\src\main\AndroidManifest.xml
+		INJECTED from F:\TeachManageSys\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from F:\TeachManageSys\app\src\main\AndroidManifest.xml
+		INJECTED from F:\TeachManageSys\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:7:5-33:19
+ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:7:5-33:19
 	android:label
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:9:9-41
 	android:icon
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:8:9-38
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:8:9-38
 activity#com.android.nxd.LoginActivity
-ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:10:9-18:20
+ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:10:9-18:20
 	android:label
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:12:13-45
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:12:13-45
 	android:name
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:11:13-42
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:11:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:16:27-74
 activity#com.android.nxd.twoActivity
-ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:20:9-24:20
+ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:20:9-24:20
 	android:label
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:22:13-45
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:22:13-45
 	android:name
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:21:13-40
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:21:13-40
 activity#com.android.nxd.tab2
-ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:26:9-30:20
+ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:26:9-30:20
 	android:label
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:28:13-45
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:28:13-45
 	android:name
-		ADDED from D:\Project\TeachManageSys\app\src\main\AndroidManifest.xml:27:13-33
+		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:27:13-33

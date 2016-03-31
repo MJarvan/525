@@ -42,14 +42,23 @@ public final class R {
     }
     public static final class id {
         public static final int LinearLayout01=0x7f08000b;
-        public static final int LinearLayout02=0x7f080011;
-        public static final int LinearLayout03=0x7f080013;
+        public static final int LinearLayout02=0x7f080017;
+        public static final int LinearLayout03=0x7f08001b;
         public static final int TextView01=0x7f080003;
         public static final int TextView02=0x7f080005;
-        public static final int imageView=0x7f08000c;
-        public static final int imageView2=0x7f08000e;
-        public static final int imageView3=0x7f080010;
-        public static final int listView=0x7f080012;
+        public static final int button=0x7f080015;
+        public static final int button2=0x7f08001e;
+        public static final int button3=0x7f08001f;
+        public static final int button4=0x7f080020;
+        public static final int editText=0x7f08000d;
+        public static final int editText2=0x7f08000f;
+        public static final int editText3=0x7f080011;
+        public static final int editText5=0x7f080014;
+        public static final int editText6=0x7f080016;
+        public static final int imageButton=0x7f08001c;
+        public static final int imageView=0x7f080018;
+        public static final int imageView2=0x7f080019;
+        public static final int imageView3=0x7f08001a;
         public static final int loginRoot=0x7f080000;
         public static final int login_btn_cancle=0x7f080008;
         public static final int login_btn_login=0x7f080006;
@@ -59,12 +68,16 @@ public final class R {
         public static final int login_success_show=0x7f08000a;
         public static final int login_success_view=0x7f080009;
         public static final int login_view=0x7f080001;
-        public static final int tabhost=0x7f080014;
-        public static final int textView=0x7f080015;
-        public static final int textView2=0x7f08000d;
-        public static final int textView3=0x7f08000f;
-        public static final int user_face_drawable=0x7f080017;
-        public static final int user_faceback_drawable=0x7f080016;
+        public static final int tabhost=0x7f080021;
+        public static final int textView=0x7f080022;
+        public static final int textView2=0x7f08000c;
+        public static final int textView3=0x7f08000e;
+        public static final int textView4=0x7f080010;
+        public static final int textView5=0x7f080012;
+        public static final int textView6=0x7f080013;
+        public static final int textView7=0x7f08001d;
+        public static final int user_face_drawable=0x7f080024;
+        public static final int user_faceback_drawable=0x7f080023;
     }
     public static final class layout {
         public static final int loginpage=0x7f040000;
@@ -83,6 +96,7 @@ public final class R {
         public static final int official_app_page_header_bg1=0x7f030006;
         public static final int official_app_page_header_bg2=0x7f030007;
         public static final int official_app_page_header_bg3=0x7f030008;
+        public static final int tupian=0x7f030009;
     }
     public static final class string {
         public static final int account_empty=0x7f050000;

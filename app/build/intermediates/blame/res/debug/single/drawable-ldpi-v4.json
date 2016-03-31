@@ -10,5 +10,9 @@
     {
         "merged": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
         "source": "F:\\Users\\mj\\AndroidStudioProjects\\TeachManageSys\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "F:\\TeachManageSys\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "F:\\TeachManageSys\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
     }
 ]
