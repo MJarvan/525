@@ -1,19 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="hello">Hello World, Date!</string>
+<resources>
     <string name="app_name">广财之光</string>
-    <string name="strInputAccHint"> 输入帐号</string>
-    <string name="strAccInputLabel">帐号</string>
-    <string name="strPswInputLabel">密码</string>
-    <string name="login">登录</string>
-    <string name="register">注册</string>
-    <string name="cancle">退出</string>
-    <string name="account_empty">用户名为空，请重新输入！</string>
-    <string name="pwd_empty">密码为空，请重新输入！</string>
-    <string name="register_fail">注册用户失败，请重新尝试！</string>
-    <string name="register_sucess">注册成功！</string>
-    <string name="login_sucess">登陆成功！</string>
-    <string name="login_fail">登陆失败！请输入正确的用户名与密码！</string>
-    <string name="name_already_exist">用户名：<xliff:g id="id1" example="tom">%1$s</xliff:g>已存在，请重新输入！</string>
-    <string name="user_login_sucess">用户：<xliff:g id="id2" example="tom">%1$s</xliff:g>登录，欢迎光临！</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
+
+
+    <string name="abouttitle">关于本软件</string>
+	<string name="text1">基于Android版的东软移动食堂,内置食堂所有菜谱,附有食物分类,东软特色菜推荐,菜品收藏,电话订餐等功能。
+	</string>
+
+    <string name="title3">用户反馈</string>
+	<string name="text3">如果您在使用软件的过程中，有任何意见或者建议，欢迎发送邮件到以下邮箱地址，你宝贵的意见对我们持续改进软件质量有很大的帮助。联系我们：lishidezy@163.com
+	</string>
+    <string name="copyright">Copyright ©2015 DRSS.All Rights Reserved</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_food_details">FoodDetailsActivity</string>
 </resources>

@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/container_tab"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mintcream">
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_home"
+                style="@style/main_tab"
+                android:drawableTop="@drawable/icon_home_selector"
+                android:text="发布任务"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/radio_shop"
+                style="@style/main_tab"
+                android:drawableTop="@drawable/icon_shop_selector"
+                android:text="领取任务"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/radio_like"
+                style="@style/main_tab"
+                android:drawableTop="@drawable/icon_collect_selector"
+                android:text="个人记录"
+                android:checked="false"/>
+            <RadioButton
+                android:id="@+id/radio_about"
+                style="@style/main_tab"
+                android:drawableTop="@drawable/icon_about_selector"
+                android:text="社区交流"
+                android:checked="false"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

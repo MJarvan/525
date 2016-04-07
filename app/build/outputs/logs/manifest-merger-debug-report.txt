@@ -1,51 +1,95 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from AndroidManifest.xml:2:1
 	package
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:3:5-30
-		INJECTED from F:\TeachManageSys\app\src\main\AndroidManifest.xml
-		INJECTED from F:\TeachManageSys\app\src\main\AndroidManifest.xml
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
 	android:versionName
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from F:\TeachManageSys\app\src\main\AndroidManifest.xml
-		INJECTED from F:\TeachManageSys\app\src\main\AndroidManifest.xml
-	android:versionCode
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from F:\TeachManageSys\app\src\main\AndroidManifest.xml
-		INJECTED from F:\TeachManageSys\app\src\main\AndroidManifest.xml
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
 	xmlns:android
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from AndroidManifest.xml:2:11
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:4:5
+	android:name
+		ADDED from AndroidManifest.xml:4:22
 application
-ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:7:5-33:19
+ADDED from AndroidManifest.xml:5:5
+MERGED from com.android.support:appcompat-v7:22.2.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
 	android:label
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from AndroidManifest.xml:8:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:6:9
 	android:icon
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:8:9-38
-activity#com.android.nxd.LoginActivity
-ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:10:9-18:20
+		ADDED from AndroidManifest.xml:7:9
+	android:theme
+		ADDED from AndroidManifest.xml:9:9
+activity#com.example.drss.activity.LoginActivity
+ADDED from AndroidManifest.xml:10:9
 	android:label
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:12:13-45
+		ADDED from AndroidManifest.xml:12:13
 	android:name
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:11:13-42
+		ADDED from AndroidManifest.xml:11:13
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from AndroidManifest.xml:13:13
 action#android.intent.action.MAIN
-ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from AndroidManifest.xml:14:17
 	android:name
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from AndroidManifest.xml:14:25
 category#android.intent.category.LAUNCHER
-ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from AndroidManifest.xml:16:17
 	android:name
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:16:27-74
-activity#com.android.nxd.twoActivity
-ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:20:9-24:20
+		ADDED from AndroidManifest.xml:16:27
+activity#com.example.drss.activity.GuideViewPagerActivity
+ADDED from AndroidManifest.xml:19:9
 	android:label
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:22:13-45
+		ADDED from AndroidManifest.xml:21:13
 	android:name
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:21:13-40
-activity#com.android.nxd.tab2
-ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:26:9-30:20
+		ADDED from AndroidManifest.xml:20:13
+activity#com.example.drss.activity.RegisterActivity
+ADDED from AndroidManifest.xml:23:9
 	android:label
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:28:13-45
+		ADDED from AndroidManifest.xml:25:13
 	android:name
-		ADDED from F:\TeachManageSys\app\src\main\AndroidManifest.xml:27:13-33
+		ADDED from AndroidManifest.xml:24:13
+activity#com.example.drss.activity.MainActivity
+ADDED from AndroidManifest.xml:27:9
+	android:label
+		ADDED from AndroidManifest.xml:29:13
+	android:name
+		ADDED from AndroidManifest.xml:28:13
+activity#com.example.drss.activity.RecipeActivity
+ADDED from AndroidManifest.xml:31:9
+	android:label
+		ADDED from AndroidManifest.xml:33:13
+	android:name
+		ADDED from AndroidManifest.xml:32:13
+activity#com.example.drss.activity.WelcomeActivity
+ADDED from AndroidManifest.xml:35:9
+	android:name
+		ADDED from AndroidManifest.xml:35:19
+activity#com.example.drss.activity.FoodDetailsActivity
+ADDED from AndroidManifest.xml:38:9
+	android:label
+		ADDED from AndroidManifest.xml:40:13
+	android:name
+		ADDED from AndroidManifest.xml:39:13
+activity#com.example.drss.activity.SearchActivity
+ADDED from AndroidManifest.xml:42:9
+	android:name
+		ADDED from AndroidManifest.xml:43:13
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:appcompat-v7:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

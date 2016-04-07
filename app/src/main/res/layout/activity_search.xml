@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/search2"
+            android:gravity="center_vertical"
+            android:hint=" 输入店铺名称"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse"
+            android:textColor="@android:color/black"
+            android:textScaleX="1.0"
+            android:textSize="14dp"
+            android:typeface="monospace"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+             >
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/iv_search"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/search3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+
+        <ListView
+            android:id="@+id/lv_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/white"
+             >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

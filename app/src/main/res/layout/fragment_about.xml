@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relativeLayout1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="185dp"-->
+        <!--android:gravity="center" >-->
+
+        <!-- -->
+    <!--</RelativeLayout>-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/image_login"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:text="@string/abouttitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="20dip"
+            android:gravity="center"
+            android:drawableBottom="@drawable/divider"/>
+        <TextView
+            android:text="@string/text1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dip"
+            android:drawableBottom="@drawable/divider"
+            android:maxLines="21"
+            android:width="10px"
+            android:layout_margin="10px"/>
+
+        <TextView
+            android:text="@string/title3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:drawableBottom="@drawable/divider"
+            android:maxLines="21"/>
+        <TextView
+            android:text="@string/text3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dip"
+            android:drawableBottom="@drawable/divider"
+            android:maxLines="21"
+            android:width="10px"
+            android:layout_margin="10px"/>
+        <TextView
+            android:text="@string/copyright"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="15dip"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+</ScrollView>
+

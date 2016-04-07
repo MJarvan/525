@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
-        <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/qq_checkbox_text_color</item>
-        <item name="android:paddingLeft">28.0px</item>
-        <item name="android:button">@drawable/qq_btn_check</item>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="main_tab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/main_tab_textcolor_selector</item>
     </style>
 </resources>

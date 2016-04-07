@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.nxd"
-    android:versionCode="1"
-    android:versionName="1.0" >
-
+    package="com.example.drss" >
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:icon="@drawable/icon"
-        android:label="@string/app_name" >
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.drss.activity.LoginActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,20 +16,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name=".twoActivity"
+            android:name=".activity.GuideViewPagerActivity"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.drss.activity.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.drss.activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.drss.activity.RecipeActivity"
+            android:label="@string/title_activity_recipe" >
+        </activity>
+        <activity android:name="com.example.drss.activity.WelcomeActivity" >
 
         </activity>
-
         <activity
-            android:name=".tab2"
-            android:label="@string/app_name" >
-
+            android:name="com.example.drss.activity.FoodDetailsActivity"
+            android:label="@string/title_activity_food_details" >
         </activity>
-
-
+        <activity
+            android:name="com.example.drss.activity.SearchActivity"
+            >
+        </activity>
     </application>
 
 </manifest>
