@@ -13,7 +13,7 @@
 	</string>
 
     <string name="title3">用户反馈</string>
-	<string name="text3">如果您在使用软件的过程中，有任何意见或者建议，欢迎发送邮件到以下邮箱地址，你宝贵的意见对我们持续改进软件质量有很大的帮助。联系我们：lishidezy@163.com
+	<string name="text3">说说你的故事
 	</string>
     <string name="copyright">Copyright ©2015 DRSS.All Rights Reserved</string>
     <string name="title_activity_welcome">WelcomeActivity</string>

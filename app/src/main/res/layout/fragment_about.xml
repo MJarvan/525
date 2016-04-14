@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#FFFFFF" >
 
     <!--<RelativeLayout-->
@@ -13,13 +13,96 @@
         <!-- -->
     <!--</RelativeLayout>-->
 
-    <LinearLayout
-        android:layout_width="fill_parent"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
-        android:gravity="center_vertical" >
+        android:weightSum="1"
 
-    </LinearLayout>
+        android:gravity="center_vertical"
+        android:clickable="false">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5"
+            android:hint="说说你的故事"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发表"
+            android:id="@+id/button"
+            android:layout_gravity="right"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="592dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="439dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发表"
+            android:id="@+id/button2"
+            android:layout_below="@+id/editText5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传照片"
+            android:id="@+id/button4"
+            android:layout_below="@+id/editText5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我在广州，我参加了“大手牵小手”活动，我觉得这次活动是一次很有意义的活动......"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="62dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="来自志愿者小明"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="赞"
+            android:id="@+id/button3"
+            android:layout_marginTop="58dp"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评论"
+            android:id="@+id/button5"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_alignTop="@+id/button3"
+            android:layout_toRightOf="@+id/button3"
+            android:layout_toEndOf="@+id/button3"/>
+
+    </RelativeLayout>
 
 
 </ScrollView>
