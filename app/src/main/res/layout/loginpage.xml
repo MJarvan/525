@@ -3,7 +3,7 @@
     android:id="@+id/loginRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/official_app_page_header_bg"
+
     android:orientation="vertical">
 
 
@@ -27,7 +27,7 @@
             android:layout_marginLeft="5.0dip"
             android:layout_marginRight="5.0dip"
             android:layout_marginTop="5.0dip"
-            android:background="@drawable/qq_edit_login"
+
             android:hint="@string/strInputAccHint"
             android:inputType="number"
             android:maxLength="10"
@@ -56,7 +56,7 @@
             android:layout_alignRight="@+id/login_edit_account"
             android:layout_below="@+id/login_edit_account"
             android:layout_marginRight="1.0dip"
-            android:background="@drawable/qq_edit_login"
+
             android:inputType="textPassword"
             android:maxLength="16"
             android:paddingLeft="45.0sp"
@@ -117,7 +117,7 @@
         android:layout_marginLeft="15.0px"
         android:layout_marginRight="15.0px"
         android:layout_marginTop="62.0px"
-        android:background="@drawable/login_back"
+
         android:paddingBottom="10.0px"
         android:paddingTop="21.0px"
         android:visibility="gone" >

@@ -27,23 +27,108 @@ public class RecipeAdapter extends BaseAdapter {
         RecipeDBAdapter recipeDBAdapter = new RecipeDBAdapter(context);
         recipeDBAdapter.openDB();
 
-
-        RecipeBean recipeBean=new RecipeBean();
-        recipeBean.setFood_id("f06");
+        /*RecipeBean recipeBean=new RecipeBean();
+        recipeBean.setFood_id("f02");
         recipeBean.getFood_id();
-        recipeBean.setFood_name("从心出发");
+        recipeBean.setFood_name("伴我同行");
         recipeBean.getFood_name();
-        recipeBean.setFood_price(" 活动地点：深圳");
+        recipeBean.setFood_price(" 一、活动地点：广州市信孚慈爱院（广州市白云区钟落潭镇光明村）");
         recipeBean.getFood_price();
         recipeBean.setFood_class("(1)活动名额的限制，所以如果名单内没您的名字，请您下次再报名参加\n" +
                 "(2) 路途比较遥远，请大家在13：40前到达集中地点。请勿迟到！");
         recipeBean.getFood_class();
         recipeBean.setShop_id("sq1001");
         recipeBean.getShop_id();
-        recipeDBAdapter.update(recipeBean, "竹筒饭");
+
+        recipeBean.setFood_img("f_teqkr");
+        recipeBean.getFood_img();
+
+        recipeDBAdapter.update(recipeBean,"伴我同行");*/
+        /*recipeBean.setFood_id("haha");
+        recipeBean.getFood_id();
+        recipeBean.setFood_name("福利院");
+        recipeBean.getFood_name();
+        recipeBean.setFood_price(" 一、活动地点：广州市信孚慈爱院（广州市白云区钟落潭镇光明村）\n" +
+                "活动地点为集中地点，公交车到光明村站下\n" +
+                "二、服务对象：社会儿童福利院的小朋友\n" +
+                "三、集合时间：周日下午：13:40");
+        recipeBean.getFood_price();
+        recipeBean.setFood_class("(1)活动名额的限制，所以如果名单内没您的名字，请您下次再报名参加\n" +
+                "(2) 路途比较遥远，请大家在13：40前到达集中地点。请勿迟到！");
+        recipeBean.getFood_class();
+        recipeBean.setFood_img("f_zhaopian");
+        recipeBean.getFood_img();
+        recipeBean.setShop_id("sq1001");
+        recipeBean.getShop_id();
+        recipeDBAdapter.insert(recipeBean);/*
+
+
+       /* recipeBean.setFood_id("f02");
+        recipeBean.getFood_id();
+        recipeBean.setFood_name("伴我同行");
+        recipeBean.getFood_name();
+        recipeBean.setFood_price(" 一、活动地点：广州市信孚慈爱院（广州市白云区钟落潭镇光明村）");
+        recipeBean.getFood_price();
+        recipeBean.setFood_class("(1)活动名额的限制，所以如果名单内没您的名字，请您下次再报名参加\n" +
+                "(2) 路途比较遥远，请大家在13：40前到达集中地点。请勿迟到！");
+        recipeBean.getFood_class();
+        recipeBean.setShop_id("sq1001");
+        recipeBean.getShop_id();
+        recipeDBAdapter.update(recipeBean, "沙拉烤肉饭");
+
+        recipeBean.setFood_id("f03");
+        recipeBean.getFood_id();
+        recipeBean.setFood_name("大手拉小手");
+        recipeBean.getFood_name();
+        recipeBean.setFood_price(" 一、活动地点：广州市信孚慈爱院（广州市白云区钟落潭镇光明村）" );
+        recipeBean.getFood_price();
+        recipeBean.setFood_class("(1)活动名额的限制，所以如果名单内没您的名字，请您下次再报名参加\n" +
+                "(2) 路途比较遥远，请大家在13：40前到达集中地点。请勿迟到！");
+        recipeBean.getFood_class();
+        recipeBean.setShop_id("sq1001");
+        recipeBean.getShop_id();
+        recipeDBAdapter.update(recipeBean, "番茄烤肉饭");
+
+        recipeBean.setFood_id("f04");
+        recipeBean.getFood_id();
+        recipeBean.setFood_name("微心愿");
+        recipeBean.getFood_name();
+        recipeBean.setFood_price(" 一、活动地点：广州市信孚慈爱院（广州市白云区钟落潭镇光明村）" );
+        recipeBean.getFood_price();
+        recipeBean.setFood_class("(1)活动名额的限制，所以如果名单内没您的名字，请您下次再报名参加\n" +
+                "(2) 路途比较遥远，请大家在13：40前到达集中地点。请勿迟到！");
+        recipeBean.getFood_class();
+        recipeBean.setShop_id("sq1001");
+        recipeBean.getShop_id();
+        recipeDBAdapter.update(recipeBean, "土耳其炒饼");
+
+        recipeBean.setFood_id("f05");
+        recipeBean.getFood_id();
+        recipeBean.setFood_name("从心出发");
+        recipeBean.getFood_name();
+        recipeBean.setFood_price(" 一、活动地点：广州市信孚慈爱院（广州市白云区钟落潭镇光明村）" );
+        recipeBean.getFood_price();
+        recipeBean.setFood_class("(1)活动名额的限制，所以如果名单内没您的名字，请您下次再报名参加\n" +
+                "(2) 路途比较遥远，请大家在13：40前到达集中地点。请勿迟到！");
+        recipeBean.getFood_class();
+        recipeBean.setShop_id("sq1001");
+        recipeBean.getShop_id();
+        recipeDBAdapter.update(recipeBean, "木林烤肉饭");
+
+        recipeBean.setFood_id("f06");
+        recipeBean.getFood_id();
+        recipeBean.setFood_name("关爱留守儿童");
+        recipeBean.getFood_name();
+        recipeBean.setFood_price(" 一、活动地点：广州市信孚慈爱院（广州市白云区钟落潭镇光明村）" );
+        recipeBean.getFood_price();
+        recipeBean.setFood_class("(1)活动名额的限制，所以如果名单内没您的名字，请您下次再报名参加\n" +
+                "(2) 路途比较遥远，请大家在13：40前到达集中地点。请勿迟到！");
+        recipeBean.getFood_class();
+        recipeBean.setShop_id("sq1001");
+        recipeBean.getShop_id();
+        recipeDBAdapter.update(recipeBean, "竹筒饭");*/
 
         recipeList=recipeDBAdapter.queryAll(shop_id);
-
         recipeDBAdapter.closeDB();
     }
 

@@ -25,18 +25,39 @@ public class ShopAdapter extends BaseAdapter{
         ShopDBAdapter shopDBAdapter = new ShopDBAdapter(context);
         shopDBAdapter.openDB();
 
-        ShopBean shopBean=new ShopBean();
-       /* shopBean.setShop_id("sq1008");
+       /* ShopBean shopBean=new ShopBean();
+
+
+        shopBean.setShop_id("sq1008");
+
+
+        shopDBAdapter.delete_byName(shopBean, "佳味得");
+        shopDBAdapter.delete_byName(shopBean,"重庆鸡公煲");
+        shopDBAdapter.delete_byName(shopBean,"面之味");
+        shopDBAdapter.delete_byName(shopBean,"秋野家");
+        shopDBAdapter.delete_byName(shopBean,"重庆小面");
+        shopDBAdapter.delete_byName(shopBean,"山西刀削面");
+        shopDBAdapter.delete_byName(shopBean,"东北饺子馆");
+        shopDBAdapter.delete_byName(shopBean,"台湾手抓饼");
+        shopDBAdapter.delete_byName(shopBean,"天津小笼包");
+        shopDBAdapter.delete_byName(shopBean,"麻辣小屋");
+        shopDBAdapter.delete_byName(shopBean,"串串香");
+        shopDBAdapter.delete_byName(shopBean,"黄焖鸡米饭");*/
+       /* ShopBean shopBean=new ShopBean();
+        shopBean.setShop_id("ha");
         shopBean.getShop_id();
-        shopBean.setShop_name("捐款资助");
+        shopBean.setShop_name("bb");
         shopBean.getShop_name();
-        shopBean.setShop_region("中山，惠州");
+        shopBean.setShop_region("三期");
         shopBean.getShop_region();
-        shopBean.setShop_address("中山，惠州");
+        shopBean.setShop_address("三期七");
         shopBean.getShop_address();
         shopBean.setShop_tel("2");
         shopBean.getShop_tel();*/
-        shopDBAdapter.delete_byName(shopBean,"重庆鸡公煲");
+
+
+
+
 
 
         shopList=shopDBAdapter.queryAll();

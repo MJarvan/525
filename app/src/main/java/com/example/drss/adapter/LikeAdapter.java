@@ -130,7 +130,7 @@ public class LikeAdapter extends BaseAdapter{
                 setShopList(shopid);
                 for (int j = 0; j < getShopList().size(); j++) {
                     String shop_name=getShopList().get(j).getShop_name();
-                    holder.ShopName.setText("店名："+shop_name);
+                    holder.ShopName.setText("类别："+shop_name);
                 }
                 holder.FoodName.setText(food_name);
 

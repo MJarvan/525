@@ -10,16 +10,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:background="@color/lightpink"
-        android:gravity="center_horizontal"
-        android:weightSum="1">
+        android:gravity="center_horizontal">
 
         <ImageButton
-            android:layout_width="58dp"
-            android:layout_height="64dp"
+            android:layout_width="63dp"
+            android:layout_height="63dp"
             android:id="@+id/ibtn_like"
             android:background="@drawable/details_like"
-            android:layout_marginRight="30dp"
-            android:layout_weight="0.03"/>
+            android:layout_marginRight="30dp"/>
         <ImageButton
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -65,7 +63,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="详细："
+                android:text="详情："
                 android:textSize="18dp"
 
                 android:id="@+id/textView2" />

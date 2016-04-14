@@ -104,7 +104,7 @@ public class ShopDBAdapter {
             shopBean.setShop_name(cursor.getString(cursor.getColumnIndex(SHOP_NAME)));
             shopBean.setShop_region(cursor.getString(cursor.getColumnIndex(SHOP_REGION)));
             shopBean.setShop_address(cursor.getString(cursor.getColumnIndex(SHOP_ADDR)));
-            shopBean.setShop_tel(cursor.getString(cursor.getColumnIndex(SHOP_TEL)));
+            //shopBean.setShop_tel(cursor.getString(cursor.getColumnIndex(SHOP_TEL)));
             shops.add(shopBean);
             cursor.moveToNext();
         }

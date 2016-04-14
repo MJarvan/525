@@ -39,7 +39,7 @@ public class FoodDetailsActivity extends Activity {
 
         Intent intent = getIntent();
         textViewFood.setText(intent.getStringExtra("f_name"));
-        textViewPrice.setText(intent.getStringExtra("f_price")+" 元");
+        textViewPrice.setText(intent.getStringExtra("f_price"));
         textViewClass.setText(intent.getStringExtra("f_class"));
 
         /*String food_img=intent.getStringExtra("f_img");

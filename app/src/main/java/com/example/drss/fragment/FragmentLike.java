@@ -62,7 +62,7 @@ public class FragmentLike extends Fragment {
         if (item.getItemId()==CONTEXTMENU1) {
             new AlertDialog.Builder(this.getActivity())
                     .setTitle("提示")
-                    .setMessage("确定放弃此活动吗？")
+                    .setMessage("确定取消此次活动吗？")
                     .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface arg0, int arg1) {

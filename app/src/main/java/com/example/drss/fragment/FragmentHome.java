@@ -15,10 +15,18 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+
+import android.widget.BaseAdapter;
+import android.widget.TextView;
+import com.example.drss.R;
+import com.example.drss.bean.RecipeBean;
+import com.example.drss.dbadapter.RecipeDBAdapter;
 
 import java.util.ArrayList;
 
@@ -26,6 +34,10 @@ public class FragmentHome extends Fragment {
 
     ImageButton imageButtonSearch;
     private ViewPager mViewPagerH;
+    EditText editTextmz,editTextxq,editTextlx,editTextyq;
+    Button buttonfb;
+
+
 
     private LinearLayout viewIndicator;//指示器布局
 
@@ -41,7 +53,7 @@ public class FragmentHome extends Fragment {
 
         View view=inflater.inflate(R.layout.fragment_home, null);
 
-        imageButtonSearch=(ImageButton)view.findViewById(R.id.ibtn_home_hot);
+       /* imageButtonSearch=(ImageButton)view.findViewById(R.id.ibtn_home_hot);
         imageButtonSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,7 +68,7 @@ public class FragmentHome extends Fragment {
                 Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://v5.ele.me/?force"));
                 startActivity(i);
             }
-        });
+        });*/
 
         initHomeView(view);
         return view;
@@ -142,4 +154,6 @@ public class FragmentHome extends Fragment {
         }
 
     }
+
+
 }
