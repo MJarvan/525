@@ -1,13 +1,25 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
 
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
     defaultConfig {
         applicationId "com.example.drss"
         minSdkVersion 15
-        targetSdkVersion 22
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
     }
@@ -20,6 +32,18 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.2.0'
+    compile 'com.android.support:support-annotations:23.2.0'
+    compile 'com.squareup.okhttp:okhttp:2.0.0'
+    compile files('E:/androidproject/the-light-of-gdufe-app-the-light-of-gdufe-app/.idea/libraries/commons-codec-1.9.jar')
+    compile files('E:/androidproject/the-light-of-gdufe-app-the-light-of-gdufe-app/.idea/libraries/commons-logging-1.2.jar')
+    compile files('E:/androidproject/the-light-of-gdufe-app-the-light-of-gdufe-app/.idea/libraries/fluent-hc-4.5.jar')
+    compile files('E:/androidproject/the-light-of-gdufe-app-the-light-of-gdufe-app/.idea/libraries/httpclient-4.5.jar')
+    compile files('E:/androidproject/the-light-of-gdufe-app-the-light-of-gdufe-app/.idea/libraries/httpclient-cache-4.5.jar')
+    compile files('E:/androidproject/the-light-of-gdufe-app-the-light-of-gdufe-app/.idea/libraries/httpclient-win-4.5.jar')
+    compile files('E:/androidproject/the-light-of-gdufe-app-the-light-of-gdufe-app/.idea/libraries/httpcore-4.4.1.jar')
+    compile files('E:/androidproject/the-light-of-gdufe-app-the-light-of-gdufe-app/.idea/libraries/httpmime-4.5.jar')
+    compile files('E:/androidproject/the-light-of-gdufe-app-the-light-of-gdufe-app/.idea/libraries/jna-4.1.0.jar')
+    compile files('E:/androidproject/the-light-of-gdufe-app-the-light-of-gdufe-app/.idea/libraries/jna-platform-4.1.0.jar')
 }
